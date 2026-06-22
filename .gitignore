@@ -1,0 +1,14 @@
+.next/
+node_modules/
+out/
+dist/
+.vercel/
+.agents/
+.codex/
+.git.empty-backup/
+outputs/
+work/
+*.log
+.env*
+!.env.example
+tsconfig.tsbuildinfo
