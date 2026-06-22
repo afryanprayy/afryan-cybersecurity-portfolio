@@ -34,7 +34,6 @@ export function ProjectRow({ project }: { project: Project }) {
         </div>
         <div className="md:col-span-3 md:pt-1">
           <p className="mono text-[0.7rem] uppercase tracking-[0.13em] text-[color:var(--subtle)]">{project.category}</p>
-          <p className="mono mt-2 text-[0.7rem] uppercase tracking-[0.13em] text-[color:var(--muted)]">{project.year}</p>
           <div className="mt-4 flex flex-wrap gap-2">
             {project.tags.slice(0, 4).map((tag) => (
               <span className="tag" key={tag}>
